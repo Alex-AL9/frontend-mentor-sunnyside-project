@@ -26,7 +26,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-  
+
 .header{
     /* background-image: url("images/desktop/image-header.jpg"); */
     height: 100%;
@@ -78,7 +78,7 @@ nav button:hover{
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
+
   .grid div, .grid img {
     width: 50%;
   }
@@ -103,7 +103,18 @@ nav button:hover{
     width: 50%;
 }
 
-.grid3 div{
+.grid3 .container {
+    position: relative;
+}
+
+.grid3 .content {
     position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 0;
+}
+
+.grid3 .container img {
+    width: 100%;
 }
 
